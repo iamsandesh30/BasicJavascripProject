@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/background-img.jpg')center/cover no-repeat;
+}
+
+.images{
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('img/img-0.jpg')center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+    position: relative;
+}
+
+.btn{
+    display: inline;
+    background: white;
+    color: black;
+    border: 3px solid goldenrod;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 3px black;
+    outline: none;
+}
+
+.preBtn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.btn:Active{
+    background: gray;
+    box-shadow: 1px 1px gray;
+}
+
+.btn:hover{
+    background: rgb(112, 112, 180);
+    color: white;
+}
